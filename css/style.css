@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed");
+body {
+  background-image: url(https://i.imgur.com/U0kmumP.png);
+}
+
+.render {
+  background-color: white;
+  margin: 30px auto;
+  width: 800px;
+  height: 500px;
+  -webkit-box-shadow: 0px 16px 34px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 16px 34px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 16px 34px -5px rgba(0, 0, 0, 0.75);
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: black;
+}
+
+.axis text {
+  font-family: sans-serif;
+  font-size: 11px;
+}
+
+.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 150px;
+  height: 94px;
+  padding: 5px;
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  background: #dbdbdb;
+  border-radius: 8px;
+  pointer-events: none;
+}
+
+.for {
+  font-size: 14px;
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+}
+
+.forup {
+  font-size: 18px;
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+}
